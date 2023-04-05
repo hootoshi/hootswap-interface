@@ -70,8 +70,8 @@ function Web3StatusInner() {
               address={account}
               defaultComponent={
                 <Image
-                  src="https://i.ibb.co/fngL54Q/logo.png"
-                  alt="Hoot Chef"
+                  src="https://raw.githubusercontent.com/hootoshi/hootswap-interface/main/public/images/logo.png"
+                  alt="Hoot logo"
                   width={24}
                   height={24}
                   className="rounded-full pointer-events-none"

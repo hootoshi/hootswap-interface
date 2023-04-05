@@ -23,7 +23,12 @@ const Footer = () => {
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-start gap-2">
               <div className="">
-                <Image src="https://i.ibb.co/VW9ZPJd/Hoot1-2.png" alt="hoot logo" width="200px" height="200px" />
+                <Image
+                  src="https://raw.githubusercontent.com/hootoshi/hootswap-interface/main/public/images/hoot.png"
+                  alt="hoot logo"
+                  width="200px"
+                  height="200px"
+                />
               </div>
               <Typography variant="h2" weight={700} className="tracking-[0.02em] scale-y-90 hover:text-high-emphesis">
                 Hootswap
@@ -40,7 +45,6 @@ const Footer = () => {
               <a href="https://medium.com/@admin_70828" target="_blank" rel="noreferrer">
                 <MediumIcon width={16} className="text-low-emphesis" />
               </a>
-      
             </div>
           </div>
           <div className="flex flex-col gap-1 text-right">
@@ -51,7 +55,7 @@ const Footer = () => {
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
                 {i18n._(t`The Nest`)}
               </Typography>
-       </Link>
+            </Link>
             <Link href="/" passHref={true}>
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
                 {i18n._(t`The Incubator`)}
@@ -62,7 +66,11 @@ const Footer = () => {
             <Typography variant="xs" weight={700} className="mt-2.5 hover:text-high-emphesis">
               {i18n._(t`Help`)}
             </Typography>
-            <a href="https://medium.com/@admin_70828/hoot-a-birds-nest-for-launching-and-nurturing-projects-with-dex-capabilities-on-the-qom-ecosystem-3e588064bbad" target="_blank" rel="noreferrer">
+            <a
+              href="https://medium.com/@admin_70828/hoot-a-birds-nest-for-launching-and-nurturing-projects-with-dex-capabilities-on-the-qom-ecosystem-3e588064bbad"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
                 {i18n._(t`What is Hoot?`)}
               </Typography>
@@ -72,21 +80,19 @@ const Footer = () => {
                 {i18n._(t`Ask on Telegram`)}
               </Typography>
             </a>
-            
           </div>
           <div className="flex flex-col gap-1 text-right xs:text-right md:text-left lg:text-right">
             <Typography variant="xs" weight={700} className="mt-2.5 hover:text-high-emphesis">
               {i18n._(t`Developers`)}
             </Typography>
-  
+
             <a href="" target="_blank" rel="noreferrer">
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
                 {i18n._(t`GitHub(tba)`)}
               </Typography>
             </a>
-
           </div>
-         
+
           <div className="flex flex-col gap-1">
             <LanguageSwitch />
           </div>

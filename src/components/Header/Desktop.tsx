@@ -31,7 +31,12 @@ const Desktop: FC = () => {
             <div className="flex items-center justify-between gap-4 px-6">
               <div className="flex gap-4">
                 <div className="flex items-center w-6 mr-4">
-                  <Image src="https://i.ibb.co/pdmSC6Q/leftlogo-1.png" alt="Hoot logo" width="50px" height="50px" />
+                  <Image
+                    src="https://raw.githubusercontent.com/hootoshi/hootswap-interface/main/public/images/moonthehoot.png"
+                    alt="Hoot logo"
+                    width="50px"
+                    height="50px"
+                  />
                 </div>
                 {menu.map((node) => {
                   return <NavigationItem node={node} key={node.key} />

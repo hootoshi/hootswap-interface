@@ -29,7 +29,12 @@ const Mobile: FC = () => {
           </div>
           <div className="flex items-center w-6">
             <Link href="/swap" passHref={true}>
-              <Image src="https://i.ibb.co/fngL54Q/logo.png" alt="Hoot logo" width="24px" height="24px" />
+              <Image
+                src="https://github.com/hootoshi/hootswap-interface/blob/main/public/images/logo.png"
+                alt="Hoot logo"
+                width="24px"
+                height="24px"
+              />
             </Link>
           </div>
           <div className="flex items-center">{<Web3Network />}</div>

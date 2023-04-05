@@ -35,7 +35,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('https://i.ibb.co/YN1cxBm/star1.png');
+  background-image: url('https://hoot.finance/images/background.png');
   color: var(--text-primary);
 }
 
@@ -68,7 +68,7 @@ input[type=datetime-local]::-webkit-calendar-picker-indicator {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('https://i.ibb.co/YN1cxBm/star1.png');
+    background-image: url('https://hoot.finance/images/background.png');
   }
 }
 

@@ -86,7 +86,12 @@ const AccountDetails: FC<AccountDetailsProps> = ({
                   // @ts-ignore TYPE NEEDS FIXING
                   address={account}
                   defaultComponent={
-                    <Image src="https://i.ibb.co/fngL54Q/logo.png" alt="Sushi Chef" width={48} height={48} />
+                    <Image
+                      src="https://raw.githubusercontent.com/hootoshi/hootswap-interface/main/public/images/logo.png"
+                      alt="Hoot logo"
+                      width={48}
+                      height={48}
+                    />
                   }
                   provider={library}
                 />
