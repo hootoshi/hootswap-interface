@@ -1,0 +1,7 @@
+:root {
+    --primary: #0b080a;
+    --background-image:  url('https://i.ibb.co/YN1cxBm/star1.png');
+    --text-primary: #BFBFBF;
+    --font-sans: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --scrollbar-width: 14px;
+}
